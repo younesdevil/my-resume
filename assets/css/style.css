@@ -9,8 +9,12 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@font-face {
+  font-family: Tanha;
+  src: url(../font/Tanha.woff) format(woff);
+}
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Tanha", sans-serif;
   color: #272829;
 }
 
@@ -30,7 +34,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Tanha", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -880,7 +884,7 @@ section {
 }
 
 .services .iconbox-pink i {
-  color: #e80368;
+  color: #a003e8;
 }
 
 .services .iconbox-pink:hover .icon i {
@@ -888,7 +892,7 @@ section {
 }
 
 .services .iconbox-pink:hover .icon path {
-  fill: #e80368;
+  fill: #a003e8;
 }
 
 .services .iconbox-yellow i {
